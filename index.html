@@ -1,3 +1,4 @@
+redirect_to: "http://example.com"
 <html>
   <head>
     <title>Legacy Home page with redirect</title>
@@ -7,3 +8,6 @@
      <p>Redirecting to https://jpmmcneill.github.io/home...</p>
   </body>
 </html>
+
+<!-- TODO: persist the referer header so that it isn't lost by the refresh -->
+<!-- Apparently this can be done using the redirect_to parameter in jekyll -->
